@@ -1,0 +1,7 @@
+1. Download the following extensions : rust-analyzer (Don't download the currently 'official'
+   rust extension) , and then download codelldb for debugging. (Note: The C/C++ extention of 
+   vscode offers better debugging, better info, but isn't as compatible with rust as codelldb)
+2. Go to the terminal, cd to the folder where you want to store the projects, then write : 
+    cargo new first_rust_project      (or any other project name)
+    (This command createsa a new project for you, with an already working 'hello' world program)
+3. cd to the 'first_rust_project' directory, and start working on the project
