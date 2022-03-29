@@ -5,3 +5,14 @@
     cargo new first_rust_project      (or any other project name)
     (This command createsa a new project for you, with an already working 'hello' world program)
 3. cd to the 'first_rust_project' directory, and start working on the project
+
+https://doc.rust-lang.org/book/ch01-03-hello-cargo.html
+(Follow this page, to check the syntax)
+
+
+Blocking waiting for file lock on package cache
+(Use command : cargo clean ) (to remove the previous compiled files, so that they don't clash
+with the new 'cargo build' command)
+
+cargo doc --open (command will build documentation provided by all of your dependencies 
+locally and open it in your browser.)
